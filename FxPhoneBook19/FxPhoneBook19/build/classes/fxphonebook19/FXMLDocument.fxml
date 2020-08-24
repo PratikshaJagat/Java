@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="488.0" prefWidth="503.0" style="-fx-background-color: tan;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="fxphonebook19.FXMLDocumentController">
+   <children>
+      <Label layoutX="91.0" layoutY="14.0" text="Phone Book">
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REPEAT" radius="0.2341772151898734">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="RED" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <font>
+            <Font name="System Bold Italic" size="61.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnAdd" layoutX="70.0" layoutY="126.0" mnemonicParsing="false" onAction="#he" prefHeight="39.0" prefWidth="377.0" style="-fx-background-color: #440000;" text="Add" textFill="WHITE">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnSearch" layoutX="70.0" layoutY="200.0" mnemonicParsing="false" onAction="#he" prefHeight="39.0" prefWidth="377.0" style="-fx-background-color: #440000;" text="Search" textFill="WHITE">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnUp" layoutX="70.0" layoutY="273.0" mnemonicParsing="false" onAction="#he" prefHeight="39.0" prefWidth="377.0" style="-fx-background-color: #440000;" text="Update" textFill="WHITE">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnDel" layoutX="70.0" layoutY="347.0" mnemonicParsing="false" onAction="#he" prefHeight="39.0" prefWidth="377.0" style="-fx-background-color: #440000;" text="Delete" textFill="WHITE">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

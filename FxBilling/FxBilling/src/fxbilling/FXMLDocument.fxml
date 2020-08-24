@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" style="-fx-background-image: url(&quot;images/bg.jpg&quot;); -fx-background-size: cover;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxbilling.FXMLDocumentController">
+   <children>
+      <Button fx:id="btnUser" defaultButton="true" layoutX="169.0" layoutY="146.0" mnemonicParsing="false" onAction="#he" prefWidth="300.0" style="-fx-background-color: kuchbhi;" text="User Page" textFill="WHITE">
+         <font>
+            <Font name="ArnoPro-Bold" size="44.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button fx:id="btnAdmin" layoutX="169.0" layoutY="240.0" mnemonicParsing="false" onAction="#he" prefWidth="300.0" style="-fx-background-color: kuchbhi;" text="Admin Page" textFill="WHITE">
+         <font>
+            <Font name="ArnoPro-Bold" size="44.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

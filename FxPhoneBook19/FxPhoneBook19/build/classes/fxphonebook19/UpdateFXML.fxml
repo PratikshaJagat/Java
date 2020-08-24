@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="315.0" prefWidth="388.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxphonebook19.UpdateFXMLController">
+   <children>
+      <TextField fx:id="txtName" layoutX="26.0" layoutY="38.0" prefHeight="39.0" prefWidth="339.0" promptText="Name" />
+      <TextField fx:id="txtPn" layoutX="26.0" layoutY="102.0" prefHeight="39.0" prefWidth="339.0" promptText="Phone No" />
+      <Button fx:id="btnAdd" defaultButton="true" layoutX="26.0" layoutY="179.0" mnemonicParsing="false" onAction="#he" prefHeight="39.0" prefWidth="339.0" text="Update" />
+      <Button fx:id="btnBack" cancelButton="true" layoutX="27.0" layoutY="237.0" mnemonicParsing="false" onAction="#he" prefHeight="39.0" prefWidth="339.0" text="Back" />
+   </children>
+</AnchorPane>

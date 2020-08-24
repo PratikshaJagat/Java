@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-image: url(&quot;images/bg.jpg&quot;); -fx-background-size: cover;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="fxbilling.LoginFXMLController">
+   <children>
+      <TextField fx:id="txtName" layoutX="262.0" layoutY="190.0" prefHeight="39.0" prefWidth="491.0" promptText="User Name">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="txtPass" layoutX="262.0" layoutY="273.0" onAction="#he" prefHeight="39.0" prefWidth="491.0" promptText="Password">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </PasswordField>
+      <Button fx:id="btnLogin" defaultButton="true" layoutX="262.0" layoutY="369.0" mnemonicParsing="false" onAction="#he" prefHeight="51.0" prefWidth="491.0" text="Login">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnBack" cancelButton="true" layoutX="262.0" layoutY="440.0" mnemonicParsing="false" onAction="#he" prefHeight="51.0" prefWidth="491.0" text="Back">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
